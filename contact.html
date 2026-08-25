@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Velvet Room</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="navbar">
+    <a href="index.html" class="logo">VELVET<span>ROOM</span>®</a>
+    <button class="menu-btn">☰</button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="work.html">Drinks</a>
+      <a href="process.html">Our Mood</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero container">
+    <p>LET'S CONNECT</p>
+    <h1 class="page-title">See you<br><span>tonight.</span></h1>
+  </section>
+
+  <section class="section container">
+    <div class="contact-layout">
+      <div class="contact-info">
+        <h2 class="section-title">Come<br>say hi.</h2>
+        <p>
+          88 Sukhumvit Soi 11<br>
+          Bangkok, Thailand 10110
+        </p>
+        <p>
+          Tue–Sun / 18:00–01:00<br>
+          hello@velvetroom.bar<br>
+          +66 2 123 4567
+        </p>
+      </div>
+
+      <form id="contactForm" class="card">
+        <h3>Book or ask us anything</h3>
+
+        <input type="text" placeholder="ชื่อของคุณ" required>
+        <input type="email" placeholder="อีเมล" required>
+
+        <select required>
+          <option value="">เลือกหัวข้อ</option>
+          <option>จองโต๊ะ</option>
+          <option>จัด Private Event</option>
+          <option>สอบถามทั่วไป</option>
+        </select>
+
+        <textarea placeholder="ข้อความของคุณ" required></textarea>
+
+        <button type="submit" class="button">Send Message ↗</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">© <span id="year"></span> Velvet Room. Please drink responsibly. 20+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
